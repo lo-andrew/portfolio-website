@@ -6,9 +6,7 @@ export default function RootLayout({ children }) {
       <header>
         <title>Andrew Lo</title>
       </header>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
