@@ -20,13 +20,19 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I am a full stack developer doing x y z and doing a whole lotta
-            nothing
+            I am a full stack developer currently at Seneca Polytechnic
+            interested in Web Development. I come from a forensic science
+            background, applying my analytical and problem solving skills to
+            create user friendly solutions
           </p>
           <div>
-            <button className="px-6 py-3 w-full rounded-full mr-4 bg-white hover:bg-slate-200 text-black">
+            <a
+              href="resume.pdf"
+              download="resume.pdf"
+              className="px-6 py-3 w-full rounded-full mr-4 bg-white hover:bg-slate-200 text-black inline-block text-center"
+            >
               Download CV
-            </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
