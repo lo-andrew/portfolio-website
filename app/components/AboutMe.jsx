@@ -11,12 +11,17 @@ export default function AboutMe() {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player,
-            and I am excited to collaborate with others to create amazing
+            I am a full stack web developer passionate about crafting
+            interactive and responsive web applications that deliver real value.
+            My journey in web development is fueled by an insatiable curiosity
+            of the web. I genuinely love diving into how things work and finding
+            better ways to build them. With hands-on experience in JavaScript,
+            React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS,
+            and Git, I'm constantly exploring best practices and technologies to
+            enhance my skills. Every project is an opportunity to learn
+            something new and push my abilities further. I thrive in
+            collaborative environments where ideas are shared freely, and I'm
+            excited to contribute to teams building innovative, user-focused
             applications.
           </p>
         </div>

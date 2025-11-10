@@ -3,9 +3,8 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <header>
-        <title>Andrew Lo</title>
-      </header>
+      <title>Andrew Lo</title>
+
       <body>{children}</body>
     </html>
   );
