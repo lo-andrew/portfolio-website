@@ -13,7 +13,7 @@ export default function Projects() {
       image: "/images/projects/volleyball-stat-track.png",
       tag: ["All"],
       gitURL: "https://github.com/lo-andrew/volleyball-stat-track",
-      previewURL: "/",
+      previewURL: "https://volleyball-stat-track.vercel.app/",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export default function Projects() {
       image: "/images/projects/flags-of-the-world.png",
       tag: ["All"],
       gitURL: "https://github.com/lo-andrew/flags-quiz",
-      previewURL: "/",
+      previewURL: "https://flags-quiz-alpha.vercel.app/",
     },
     {
       id: 3,
@@ -36,11 +36,12 @@ export default function Projects() {
     {
       id: 4,
       title: "Delivery Route Finder",
-      description: "Finds best delivery route for a given map",
+      description:
+        "Finds best delivery route for a given map (C++ application), GitHub view only",
       image: "/images/projects/project-4.png",
       tag: ["All"],
       gitURL: "https://github.com/lo-andrew/delivery-management-project",
-      previewURL: "/",
+      previewURL: "https://github.com/lo-andrew/delivery-management-project",
     },
   ];
 
