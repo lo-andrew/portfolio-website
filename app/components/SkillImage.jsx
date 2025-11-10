@@ -9,17 +9,17 @@ export default function SkillImage() {
     {
       id: 1,
       name: "JavaScript",
-      image: "/images/skills/javascript.svg",
+      image: "/images/skills/js.png",
     },
     {
       id: 2,
       name: "HTML",
-      image: "/images/skills/html.svg",
+      image: "/images/skills/html.png",
     },
     {
       id: 3,
       name: "MongoDB",
-      image: "/images/skills/mongo.svg",
+      image: "/images/skills/mdb.png",
     },
     {
       id: 4,
@@ -44,12 +44,7 @@ export default function SkillImage() {
     {
       id: 8,
       name: "C++",
-      image: "/images/skills/c++.svg",
-    },
-    {
-      id: 9,
-      name: "OracleSQL",
-      image: "/images/skills/oracleSQL.svg",
+      image: "/images/skills/cpp.png",
     },
   ];
 
