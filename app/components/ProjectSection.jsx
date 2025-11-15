@@ -41,7 +41,7 @@ export default function Projects() {
       image: "/images/projects/project-4.png",
       tag: ["All"],
       gitURL: "https://github.com/lo-andrew/delivery-management-project",
-      previewURL: "https://github.com/lo-andrew/delivery-management-project",
+      previewURL: "",
     },
   ];
 
