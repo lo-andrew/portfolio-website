@@ -43,6 +43,16 @@ export default function Projects() {
       gitURL: "https://github.com/lo-andrew/delivery-management-project",
       previewURL: "",
     },
+    {
+      id: 5,
+      title: "NCAA Hitting Percentage Spring Boot backend",
+      description:
+        "A backend developed with Spring Boot with basic CRUD operations. Data scraped using a Python web scraper, stored in a PostgreSQL database",
+      image: "/images/projects/ncaa_scraped.png",
+      tag: ["All"],
+      gitURL: "https://github.com/lo-andrew/ncaa-hitpercentages",
+      previewURL: "",
+    },
   ];
 
   const [tag, setTag] = useState("All");
