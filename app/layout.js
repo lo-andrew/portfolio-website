@@ -1,11 +1,16 @@
 import "./globals.css";
+import DarkVeil from './components/DarkVeil';
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <title>Andrew Lo</title>
 
-      <body>{children}</body>
+      <body>
+        <DarkVeil />
+        {children}
+      </body>
     </html>
   );
 }
