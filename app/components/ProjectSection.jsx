@@ -53,6 +53,16 @@ export default function Projects() {
       gitURL: "https://github.com/lo-andrew/ncaa-hitpercentages",
       previewURL: "",
     },
+    {
+      id: 6,
+      title: "Adrian Lo Portfolio Website",
+      description:
+        "A portfolio site for a client who is a photographer. I developed the website from the client's design, also implementing a Sanity CMS for the client to add their own content",
+      image: "/images/projects/adrian-lo.png",
+      tag: ["All"],
+      gitURL: "",
+      previewURL: "https://www.adrian-lo.com/",
+    },
   ];
 
   const [tag, setTag] = useState("All");
@@ -64,7 +74,7 @@ export default function Projects() {
   };
 
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+    project.tag.includes(tag),
   );
 
   const cardVariants = {
